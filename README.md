@@ -45,7 +45,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/cdwr/simpleSSH)
 
-This is an C example for a simple SSH client/server. It's configured to run on the localhost, but can be configured to run over most networks. 
+This is an C example for a simple SSH client/server. It's configured to run on the localhost, but can be configured to run over most networks. It includes the most basic SSH commands: cd, pwd, mkdir, rmdir, rm, cat, get, and put.
 
 ### Built With
 
@@ -57,21 +57,14 @@ The SSH server and client were built for linux usage, and compiled with gcc. All
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To run the filesystem, you'll need an up-to-date linux distribution. This filesystem was created in Ubuntu, but others should work fine.
+This example was built for linux, but can be run using any C interpreter.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+If you choose to recompile, you'll need a C compiler. I used gcc.
 * gcc
   ```sh
   sudo apt install build-essential
-  ```
-  ```sh
-  sudo apt-get install manpages-dev
-  ```
-* ext2fs/ext2_fs.h
-  ```sh
-  sudo apt-get install e2fslibs-dev
   ```
 
 ### Installation
@@ -86,37 +79,30 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Use case 1 (recommended):
-  1) Run the command utility:
-     ```sh
-     ./a.out
-     ```
-  2) Use the tools. All tools are simplified versions of Unix filesystem editing commands. Commands include:
-     ```sh
-     ls
-     cd
-     pwd
-     mkdir
-     create
-     rmdir
-     rmfile
-     link
-     symlink
-     unlink
-     open
-     close
-     pfd
-     lseek
-     cat
-     cp
-     dup
-     dup2
-     write
-     mount
-     umount
-     quit
-     ```
-     
-
+  1) *optional* Compile the client and server
+  ```sh
+  gcc -o client client.c
+  gcc -o server server.c
+  ```
+  2) Run the server
+  ```sh
+  ./server
+  ```
+  3) Run the client
+  ```sh
+  ./client
+  ```
+  4) Use built in commands
+  ```sh
+  pwd
+  mkdir (dir_name)
+  rmdir (dir_name)
+  rm (dir_name)
+  cat (file_name)
+  get (file_name)
+  put(file_name)
+  ```
+  
 <!-- CONTRIBUTING -->
 ## Contributing
 
