@@ -9,10 +9,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/cdwr/simpleSSH">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kissclipart.com%2Fethernet-logo-clipart-ethernet-network-cables-comp-kh7c32%2F&psig=AOvVaw0JkuYywAXqJs_HWjTwKzz1&ust=1609297324481000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLj9j--Z8u0CFQAAAAAdAAAAABAD" alt="Logo" width="80" height="80">
+    <img src="https://www.dmuth.org/wp-content/uploads/2020/01/ssh.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">File System Project</h3>
+  <h3 align="center">Simple SSH</h3>
   
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -45,15 +45,12 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/cdwr/simpleSSH)
 
-This is a filesystem built from scratch, inspired by the EXT2 filesystem architecture. It's fully functionally functional, and includes a linux-like filesystem management command tool, with all basic filesystem commands implemented. With the addition of a bootloader and kernel, it could function as an independent operating system. Disks created can be mounted using the prebuilt command line, or can be mounted from any current linux distribution.
+This is an C example for a simple SSH client/server. It's configured to run on the localhost, but can be configured to run over most networks. 
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The SSH server and client were built for linux usage, and compiled with gcc. All dependencies 
 
-* [fcntl.h](https://man7.org/linux/man-pages/man2/fcntl.2.html)
-* [ext2fs/ext2_fs.h](https://packages.ubuntu.com/xenial/e2fslibs-dev)
-* [libgen.h](https://pubs.opengroup.org/onlinepubs/007908775/xsh/libgen.h.html)
 * [gcc](https://gcc.gnu.org/)
 
 
