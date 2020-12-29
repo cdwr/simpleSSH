@@ -136,4 +136,4 @@ Project Link: [https://github.com/cdwr/simpleSSH](https://github.com/cdwr/simple
 [issues-url]: https://github.com/cdwr/simpleSSH/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/chris-wilson-55882816b/
-[product-screenshot]: /CAPTURE.png
+[product-screenshot]: Capture.PNG
